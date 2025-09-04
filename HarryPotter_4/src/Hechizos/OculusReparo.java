@@ -17,7 +17,8 @@ public class OculusReparo implements Spell{
 
     @Override
     public void cast(String caster, String target) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       System.out.println(caster + "repara los anteojos de"+target+"con"+getName());
     }
     
 }
+
