@@ -17,7 +17,8 @@ public class Expelliarmus implements Spell{
 
     @Override
     public void cast(String caster, String target) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       System.out.println(caster+"desarma a"+target+"con"+getName()+"el objeto sale volando");
     }
     
 }
+
